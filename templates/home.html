@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iris Model Deployment</title>
+</head>
+<body>
+<center>
+    <h1> IRIS FLOWER DETECTION</h1><br>
+    <form method="POST", action="{{url_for('home')}}">
+        <b>
+            Enter First Value: <input type="text", name="a", placeholder="Enter Value"><br><br>
+            Enter Second Value: <input type="text", name="b", placeholder="Enter Value"><br><br>
+            Enter Third Value: <input type="text", name="c", placeholder="Enter Value"><br><br>
+            Enter Fourth Value: <input type="text", name="d", placeholder="Enter Value"><br><br>
+            <input type="submit", value="PREDICT">
+        </b>
+    </form>
+</center>
+</body>
+</html>
